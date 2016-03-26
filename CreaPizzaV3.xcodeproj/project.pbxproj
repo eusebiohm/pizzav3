@@ -12,6 +12,11 @@
 		1166D6881C96FE7F005914A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166D6861C96FE7F005914A1 /* Main.storyboard */; };
 		1166D68A1C96FE7F005914A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1166D6891C96FE7F005914A1 /* Assets.xcassets */; };
 		1166D68D1C96FE7F005914A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1166D68B1C96FE7F005914A1 /* LaunchScreen.storyboard */; };
+		1166D6951C970080005914A1 /* VistaMasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166D6941C970080005914A1 /* VistaMasaViewController.swift */; };
+		1166D6971C9701F5005914A1 /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166D6961C9701F5005914A1 /* VistaQueso.swift */; };
+		1166D6991C9704BD005914A1 /* VistaIngre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166D6981C9704BD005914A1 /* VistaIngre.swift */; };
+		1166D69B1C9705C7005914A1 /* ViewConfirma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166D69A1C9705C7005914A1 /* ViewConfirma.swift */; };
+		11A7AB721C9B10AD0073F701 /* domino.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 11A7AB711C9B10AD0073F701 /* domino.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1166D6891C96FE7F005914A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1166D68C1C96FE7F005914A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1166D68E1C96FE7F005914A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1166D6941C970080005914A1 /* VistaMasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasaViewController.swift; sourceTree = "<group>"; };
+		1166D6961C9701F5005914A1 /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		1166D6981C9704BD005914A1 /* VistaIngre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngre.swift; sourceTree = "<group>"; };
+		1166D69A1C9705C7005914A1 /* ViewConfirma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirma.swift; sourceTree = "<group>"; };
+		11A7AB711C9B10AD0073F701 /* domino.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = domino.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		1166D6811C96FE7F005914A1 /* CreaPizzaV3 */ = {
 			isa = PBXGroup;
 			children = (
+				11A7AB711C9B10AD0073F701 /* domino.jpeg */,
 				1166D6821C96FE7F005914A1 /* AppDelegate.swift */,
 				1166D6841C96FE7F005914A1 /* ViewController.swift */,
 				1166D6861C96FE7F005914A1 /* Main.storyboard */,
 				1166D6891C96FE7F005914A1 /* Assets.xcassets */,
 				1166D68B1C96FE7F005914A1 /* LaunchScreen.storyboard */,
 				1166D68E1C96FE7F005914A1 /* Info.plist */,
+				1166D6941C970080005914A1 /* VistaMasaViewController.swift */,
+				1166D6961C9701F5005914A1 /* VistaQueso.swift */,
+				1166D6981C9704BD005914A1 /* VistaIngre.swift */,
+				1166D69A1C9705C7005914A1 /* ViewConfirma.swift */,
 			);
 			path = CreaPizzaV3;
 			sourceTree = "<group>";
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1166D68D1C96FE7F005914A1 /* LaunchScreen.storyboard in Resources */,
+				11A7AB721C9B10AD0073F701 /* domino.jpeg in Resources */,
 				1166D68A1C96FE7F005914A1 /* Assets.xcassets in Resources */,
 				1166D6881C96FE7F005914A1 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1166D6951C970080005914A1 /* VistaMasaViewController.swift in Sources */,
 				1166D6851C96FE7F005914A1 /* ViewController.swift in Sources */,
 				1166D6831C96FE7F005914A1 /* AppDelegate.swift in Sources */,
+				1166D69B1C9705C7005914A1 /* ViewConfirma.swift in Sources */,
+				1166D6991C9704BD005914A1 /* VistaIngre.swift in Sources */,
+				1166D6971C9701F5005914A1 /* VistaQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				1166D6931C96FE7F005914A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
